@@ -1,6 +1,6 @@
 class CardsController < ApplicationController
   before_action :authenticate_user, except: [:index, :show]
-  
+
   def index
     cards = Card.all
     render json: cards
@@ -20,7 +20,7 @@ class CardsController < ApplicationController
       # user_id: current_user.id
     )
     if card.save
-      render json: card.as_json
+      render json: card
     else
       render json: {errors: card.errors.full_messages},
       status: 422

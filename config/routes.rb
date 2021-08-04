@@ -20,5 +20,5 @@ Rails.application.routes.draw do
   get "/card_tags", controller: "card_tags", action: "index"
   get "/card_tags/:id", controller: "card_tags", action: "show"
   post "/card_tags", controller: "card_tags", action: "create"
-  get "/card_tags/:id", controller: "card_tags", action: "destroy"
+  delete "/card_tags/:id", controller: "card_tags", action: "destroy"
 end
