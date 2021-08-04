@@ -18,11 +18,11 @@
 # toilet = Tag.create({name: "toilet"})
 # pain = Tag.create({name: "pain"})
 
-card_tag1 = CardTag.create({card_id: 1, tag_id: 2})
-card_tag2 = CardTag.create({card_id: 2, tag_id: 2})
-card_tag3 = CardTag.create({card_id: 3, tag_id: 1})
-card_tag4 = CardTag.create({card_id: 3, tag_id: 2})
-card_tag5 = CardTag.create({card_id: 4, tag_id: 1})
-card_tag6 = CardTag.create({card_id: 4, tag_id: 4})
+# card_tag1 = CardTag.create({card_id: 1, tag_id: 2})
+# card_tag2 = CardTag.create({card_id: 2, tag_id: 2})
+# card_tag3 = CardTag.create({card_id: 3, tag_id: 1})
+# card_tag4 = CardTag.create({card_id: 3, tag_id: 2})
+# card_tag5 = CardTag.create({card_id: 4, tag_id: 1})
+# card_tag6 = CardTag.create({card_id: 4, tag_id: 4})
 
 
