@@ -65,6 +65,10 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
+    babel-source (5.8.35)
+    babel-transpiler (0.7.0)
+      babel-source (>= 4.0, < 6)
+      execjs (~> 2.0)
     bcrypt (3.1.16)
     bootsnap (1.7.7)
       msgpack (~> 1.0)
@@ -73,9 +77,11 @@ GEM
     case_transform (0.2)
       activesupport
     concurrent-ruby (1.1.9)
+    connection_pool (2.2.5)
     crass (1.0.6)
     diff-lcs (1.4.4)
     erubi (1.10.0)
+    execjs (2.8.1)
     ffi (1.15.3)
     globalid (0.5.2)
       activesupport (>= 5.0)
@@ -140,6 +146,12 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    react-rails (2.6.1)
+      babel-transpiler (>= 0.7.0)
+      connection_pool
+      execjs
+      railties (>= 3.2)
+      tilt
     rspec-core (3.10.1)
       rspec-support (~> 3.10.0)
     rspec-expectations (3.10.1)
@@ -165,6 +177,7 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     thor (1.1.0)
+    tilt (2.0.10)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     websocket-driver (0.7.5)
@@ -187,6 +200,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-cors
   rails (~> 6.1.4)
+  react-rails
   rspec-rails (~> 5.0.0)
   tzinfo-data
 
